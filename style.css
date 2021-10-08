@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+    background-color: silver;
+    display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+}
+.container{
+    background-color: #fff;
+    height: 820px;
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+}
+.navigation{
+    background-color:rgb(255, 0, 0);
+    height: 40px;
+    flex-basis: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+.content{
+    background-color: green;
+    height: 750px;
+    display: flex;
+}
+.left-side{
+    background-color:rgb(200, 197, 219);
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+
+}
+.left-side-top{
+    background-color: rgb(88, 122, 165);
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-side-bottom{
+   background-color: rgb(200, 197, 219);
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.main{
+  background-color: rgb(165, 169, 177);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 0 30%;
+    align-items: center;
+}
+.card{
+    background-color: black;
+    color: blanchedalmond;
+    height: 150px;
+    flex: 0 20%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes{
+ display: flex;
+ flex-direction: row-reverse;
+ flex: 0 40%;
+ justify-content: space-around;
+}
+.box{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    flex: 0 20%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ .box:nth-child(3){
+     order: 1;
+ }
+
+ .images{
+    flex: 0 25%;
+    display: flex;
+    justify-content: space-around;
+ }
+ .image{
+     background-color: yellowgreen;
+     height: 100px;
+     flex:0 20%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .image:nth-child(1), 
+ .image:nth-child(3){
+     align-self: flex-end;
+ } 
